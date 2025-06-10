@@ -1,0 +1,80 @@
+
+/* Variáveis */
+:root {
+   
+    --text-color: #002e04;
+    --background-color: #edffeb;
+}
+
+/* código omitido */
+/* código omitido */
+
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul{
+    text-align: center;
+}
+
+img {
+
+    max-width: 90%;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+
+/* código omitido */
+
+/* código omitido */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
